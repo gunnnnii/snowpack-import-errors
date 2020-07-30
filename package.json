@@ -3,10 +3,14 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "prettier --check \"src/**/*.{js,jsx}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "lint": "prettier --check \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
+    "@uppy/core": "^1.12.1",
+    "@uppy/dashboard": "^1.12.1",
+    "@uppy/drag-drop": "^1.4.17",
+    "@uppy/url": "^1.5.9",
     "preact": "^10.4.1"
   },
   "devDependencies": {
@@ -15,6 +19,7 @@
     "@testing-library/preact": "^1.0.2",
     "jest": "^25.4.0",
     "prettier": "^2.0.5",
-    "snowpack": "^2.6.4"
+    "snowpack": "^2.6.4",
+    "typescript": "^3.9.7"
   }
 }
