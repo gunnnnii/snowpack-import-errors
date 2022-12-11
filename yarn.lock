@@ -1498,14 +1498,14 @@
     "@uppy/utils" "^3.2.2"
     namespace-emitter "^2.0.1"
 
-"@uppy/core@^1.12.2":
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/@uppy/core/-/core-1.12.2.tgz#d8eee98fd3059bb0b2053dd3d64ac521eae386f9"
-  integrity sha512-NJ4p1OXnbpzJuWYXQ9/cQ1kiQmATPWBmNoaeUxI3ePURb+sGrcHVrgpd8ktODjL2YHZ0pSl4nc8VmKc8WLuiAw==
+"@uppy/core@^1.12.1":
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/@uppy/core/-/core-1.20.1.tgz#23ca28d4388c29987fdc4e65a968474dcdc303c6"
+  integrity sha512-Z0yGixSNOSMgT/2aLylXQaEBB6X32RqGLQUgDJDK08jI0ZcMha5glNhD2RU1Gs9noQOAR/f7QwBssSnYJUNRfg==
   dependencies:
     "@transloadit/prettier-bytes" "0.0.7"
-    "@uppy/store-default" "^1.2.3"
-    "@uppy/utils" "^3.2.2"
+    "@uppy/store-default" "^1.2.7"
+    "@uppy/utils" "^3.6.2"
     cuid "^2.1.1"
     lodash.throttle "^4.1.1"
     mime-match "^1.0.2"
@@ -1569,10 +1569,10 @@
     lodash.throttle "^4.1.1"
     preact "8.2.9"
 
-"@uppy/store-default@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@uppy/store-default/-/store-default-1.2.3.tgz#3274acf97c77f3d7d2c71bd7faefff17e2115527"
-  integrity sha512-9DFq4ccIqfy8mBOO5Mj52X26JsplY3hydSooM+64NKMZ9ccs6LpSm7j8WVbvvNFnSrd7SgP/53vFwo953KCKgg==
+"@uppy/store-default@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@uppy/store-default/-/store-default-1.2.7.tgz#41a0b1579f4d5b86c236e7f5e52fdc01960bb011"
+  integrity sha512-58IG9yk/i/kYQ9uEwAwMFl1H2V3syOoODrYoFfVHlxaqv+9MkXBg2tHE2gk40iaAIxcCErcPxZkBOvkqzO1SQA==
 
 "@uppy/thumbnail-generator@^1.6.5":
   version "1.6.5"
@@ -1596,6 +1596,14 @@
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@uppy/utils/-/utils-3.2.2.tgz#ea4b3f1473e52a700ceff47449ff804b5619700d"
   integrity sha512-ze3NrG23MbYR29Oj6ik6iGZIpXxmhZK3VYwevfqJbzTknF/yh8BWLRWNyPoyOflNpsmQbxo/Y2hmqTnUC3wEPg==
+  dependencies:
+    abortcontroller-polyfill "^1.4.0"
+    lodash.throttle "^4.1.1"
+
+"@uppy/utils@^3.6.2":
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/@uppy/utils/-/utils-3.6.2.tgz#78b02455b9c469d927d22736be5b68cda2600826"
+  integrity sha512-wGTZma7eywIojfuE1vXlT0fxPSpmCRMkfgFWYc+6TL2FfGqWInmePoB+yal6/M2AnjeKHz6XYMhIpZkjOxFvcw==
   dependencies:
     abortcontroller-polyfill "^1.4.0"
     lodash.throttle "^4.1.1"
@@ -4582,10 +4590,10 @@ preact@8.2.9:
   resolved "https://registry.yarnpkg.com/preact/-/preact-8.2.9.tgz#813ba9dd45e5d97c5ea0d6c86d375b3be711cc40"
   integrity sha512-ThuGXBmJS3VsT+jIP+eQufD3L8pRw/PY3FoCys6O9Pu6aF12Pn9zAJDX99TfwRAFOCEKm/P0lwiPTbqKMJp0fA==
 
-preact@^10.4.6:
-  version "10.4.6"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.4.6.tgz#86cc43396e4bdd755726a2b4b1f0529e78067cd3"
-  integrity sha512-80WJfXH53yyINig5Wza/8MD9n4lMg9G6aN00ws0ptsAaY/Fu/M7xW4zICf7OLfocVltxS30wvNQ8oIbUyZS1tw==
+preact@^10.4.1:
+  version "10.11.3"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.11.3.tgz#8a7e4ba19d3992c488b0785afcc0f8aa13c78d19"
+  integrity sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg==
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -4656,9 +4664,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 quick-lru@^5.1.1:
   version "5.1.1"
